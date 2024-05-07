@@ -73,7 +73,7 @@ copyCNAME.dependsOn asciidoctor
 publishGhPages.dependsOn copyCNAME
 
 githubPages {
-    repoUri = 'https://github.com/vavr-io/vavr-docs.git'
+    repoUri = 'https://github.com/Pear-Commerce/vavr-docs.git'
 
     credentials {
         username = project.githubUser
